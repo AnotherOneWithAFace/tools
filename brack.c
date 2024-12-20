@@ -11,12 +11,6 @@ main(int argc, char** argv)
 	bool usestdin = argc < 2;
 	putchar('(');
 	if (usestdin) {
-//		int c;
-//		while ((c = fgetc(stdin)) != EOF) {
-//			if (c == '\n')
-//				putchar(' ');
-//			else
-//				fputc(c, stdout);
 		char* str;
 		int idx = 0;
 		char* buf[BUFSIZ];
